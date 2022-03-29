@@ -1,0 +1,6 @@
+uncomment from bootstrap/app.php
+----- $app->register(App\Providers\AuthServiceProvider::class);
+And
+-----  $app->routeMiddleware([
+     'auth' => App\Http\Middleware\Authenticate::class,
+ 	]);

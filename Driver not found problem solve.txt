@@ -1,0 +1,16 @@
+Edit php.ini file 
+
+Before:
+
+;extension=pdo_mysql
+;extension=mysqli
+;extension=pdo_sqlite
+;extension=sqlite3
+
+
+After:
+
+extension=pdo_mysql
+extension=mysqli
+extension=pdo_sqlite
+extension=sqlite3

@@ -1,0 +1,5 @@
+composer create-project --prefer-dist laravel/lumen blog
+
+Run Lumen-command
+------------------
+php -S localhost:8000 -t public

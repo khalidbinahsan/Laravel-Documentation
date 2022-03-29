@@ -1,0 +1,11 @@
+Single Action Controller
+=======================
+Route::get('/', '\App\Http\Controllers\className);
+
+Rosource Controller
+===================
+Route::resource('linkName', '\App\Http\Controllers\className');
+
+Custome Controller
+==================
+Route::get('linkName', [className::class, 'methodName']);
