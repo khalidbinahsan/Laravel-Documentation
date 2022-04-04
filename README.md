@@ -44,6 +44,7 @@ First of all you have to install ui package by this command
 ```bash
 composer require laravel/ui
 ```
+[//]: # (Generate basic scaffolding...)
 // Generate basic scaffolding...
  ```bash
  php artisan ui bootstrap
