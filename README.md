@@ -38,3 +38,20 @@ You Must add this 3 line
   use Firebase\JWT\Key;
   include 'vendor/autoload.php';
 ```
+## Laravel | Front-end Scaffolding
+Front-end Scaffolding means to create a basic structure for an application. Laravel provides a very simple way to change the front-end presets/scaffolding with any of the other available scaffolding like Bootstrap, Vue and React.
+First of all you have to install ui package by this command
+```bash
+composer require laravel/ui
+```
+// Generate basic scaffolding...
+ ```bash
+ php artisan ui bootstrap
+ php artisan ui vue
+ php artisan ui react
+ ```
+ // Genarate scaffolding with login/registration 
+   ```bash
+   php artisan ui bootstrap --auth
+   php artisan ui vue --auth
+   php artisan ui react --auth
