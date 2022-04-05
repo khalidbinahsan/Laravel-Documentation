@@ -54,13 +54,13 @@ First of all you have to install ui package by this command
 ```bash
 composer require laravel/ui
 ```
-// Generate basic scaffolding...
+Generate basic scaffolding...
  ```bash
  php artisan ui bootstrap
  php artisan ui vue
  php artisan ui react
  ```
- // Genarate scaffolding with login/registration 
+ Genarate scaffolding with login/registration 
    ```bash
    php artisan ui bootstrap --auth
    php artisan ui vue --auth
