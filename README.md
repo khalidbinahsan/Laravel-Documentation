@@ -1,11 +1,18 @@
-# Routing system in Laravel 8
+# Laravel 8
+Install Laravel
 ```bash
-Route::get('/', [class_name:class, 'function_name']);
+composer create-project laravel/laravel example-app
 ```
+Run Project
+```bash
+php artisan serve
+```
+Routing System
+```bash
+Route::get('/', [class_name::class, 'function_name']);
+```
+
 # Lumen API Documentation
-
-
-
 
 ## How to create a lumen api
 
