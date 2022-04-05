@@ -1,6 +1,7 @@
 # Routing system in Laravel 8
 ```bash
 Route::get('/', [class_name:class, 'function_name']);
+```
 # Lumen API Documentation
 
 
