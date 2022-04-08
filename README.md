@@ -70,7 +70,7 @@ Generate basic scaffolding...
    ```bash
    npm install
    ```
-Now run another command for load bootstrap style
+Now run another command for load bootstrap style. Note: You should run this command 2 times.
 ```bash
 npm run dev
 ```
