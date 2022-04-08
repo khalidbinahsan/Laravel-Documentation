@@ -74,3 +74,8 @@ Now run another command for load bootstrap style. Note: You should run this comm
 ```bash
 npm run dev
 ```
+## Setup React Bootstrap
+Run the command in your project
+```bash
+npm install react-bootstrap bootstrap
+```
