@@ -15,6 +15,13 @@ Route::get('/', [class_name::class, 'function_name']);
 Axios is a promise-based HTTP Client for node.js and the browser. It is isomorphic (= it can run in the browser and nodejs with the same codebase).   On the server-side it uses the native node.js http module, while on the client (browser) it uses XMLHttpRequests.
 Official website for Axios is: https://axios-http.com/
 Axios is javascript library for Http client
+## Jquery in Laravel
+If Jquery not working on laravel project load this CDN at head of Layout.app.blade.php file
+```bash
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.1/bootstrap3-typeahead.min.js"></script>
+    ```
 # Lumen API Documentation
 
 ## How to create a lumen api
