@@ -90,3 +90,11 @@ Run the command in your project
 npm install react-bootstrap bootstrap
 ```
 Official address for react bootstarp is https://react-bootstrap.github.io/
+## Laravel session and cookies
+Store, Retrieve, Clear Session Data
+```bash
+$request->session()->put('name', 'khalid');
+return $request->session()->get('name');
+$request->session()->forget('name');
+$reauest->session()->flush();
+```
