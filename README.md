@@ -98,3 +98,14 @@ return $request->session()->get('name');
 $request->session()->forget('name');
 $reauest->session()->flush();
 ```
+Store, Retrieve, Clear Cookie Data
+First import cookie class
+```bash
+use Illuminate\Support\Facades\Cookie;
+```
+Then use this like bellow
+```bash
+Cookie:queue('nameKey', 'Khalid', 40000);
+return Cookie::get('nameKey')
+Cookie::queue(Cookie::forget('nameKey'));
+```
